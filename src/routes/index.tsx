@@ -119,10 +119,10 @@ function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex flex-col leading-none">
           <span className="font-display text-2xl font-semibold text-forest">
-            Claire Campbell
+            Claire Campbell PA
           </span>
           <span className="text-[0.65rem] uppercase tracking-[0.35em] text-gold">
-            PA · {site.tagline}
+             {site.tagline}
           </span>
         </a>
 
