@@ -1,0 +1,55 @@
+@import "tailwindcss" source("../");
+
+/* ---------------------------------------------------------------------------
+   Claire Campbell PA — design tokens
+   Elegant, high-end real estate palette: deep forest green + warm cream,
+   paired with the Shippori Mincho serif for display type.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-forest: #244f4a;
+  --color-forest-dark: #17332f;
+  --color-forest-light: #2f645d;
+  --color-sage: #7d9b8a;
+  --color-sage-soft: #c5d3c9;
+  --color-cream: #f7f4ed;
+  --color-sand: #ece4d5;
+  --color-gold: #b08d57;
+  --color-ink: #232a27;
+
+  --font-display: "Shippori Mincho", "Times New Roman", Georgia, serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle uppercase label used above section headings */
+.eyebrow {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Thin decorative rule */
+.rule {
+  width: 3rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.5;
+}
