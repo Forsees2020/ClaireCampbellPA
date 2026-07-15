@@ -248,11 +248,11 @@ function About() {
           </div>
           <div className="mt-6 text-center">
             <p className="font-display text-3xl text-forest">
-              Claire Campbell{' '}
-              <span className="align-top text-lg text-gold">PA</span>
+              Claire Campbell PA, ABR®, GRI, REALTOR®{' '}
+              <span className="align-top text-lg text-gold"></span>
             </p>
             <p className="mt-1 text-sm uppercase tracking-[0.25em] text-gold">
-              Realtor® · {site.brokerage}
+               · {site.brokerage}
             </p>
           </div>
         </div>
@@ -410,21 +410,21 @@ function Advantage() {
 const REVIEWS = [
   {
     quote:
-      'Claire is considerate, knowledgeable, and completely on top of every detail. Selling our home was smooth from start to finish — we always felt informed and cared for.',
-    name: 'The Hensley Family',
-    place: 'Winter Park, FL',
+      'We met with Claire months before we were ready to move from California. She kept in contact and continued to provide listings so we could get a feel before moving. We were wanting to look at properties all over. Claire didn’t complain at all, always making herself available for us. We are now residents of Florida. Thank you Claire!',
+    name: 'Don and Esther',
+    place: 'Lake Wales, FL',
   },
   {
     quote:
-      "As first-time buyers we had a hundred questions, and Claire answered every one with patience. She found us the right home and negotiated a price we didn't think was possible.",
-    name: 'Marcus & Dana R.',
-    place: 'Baldwin Park, FL',
+      "One of the things that makes Claire stand out is her attention to the needs of the customer. I didn't realize as a home buyer how stressful the first time home buying process could be. Claire was always patient with my questions. She was extremely attentive at returning calls in a timely manner. She even attended my home gallery selections to help with the buying selection and not only that but she helped with numerous items that were needed during the construction process. While it is very important to have someone knowledgeable about the process, she still went above and beyond to patiently help me understand the process and fight on my behalf. I am glad and relieve that I chose Claire for my first time home buying experience. I am now a number #1 fan!!!",
+    name: 'Sean Wilson',
+    place: 'Orlando, FL',
   },
   {
     quote:
-      'Responsive, honest, and genuinely invested in our goals. Claire made a stressful relocation feel effortless. We recommend her to everyone.',
-    name: 'Priya S.',
-    place: 'Lake Nona, FL',
+      'Claire Campbell is a very friendly and energetic individual, without a doubt a consummate professional. As a new homebuyer she made sure my housing needs were met, and made it a great experience. If given the chance I will recommend Claire without thinking twice.',
+    name: 'Julio Fernandez',
+    place: 'Davenport, FL',
   },
 ]
 
@@ -623,8 +623,8 @@ function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <p className="font-display text-2xl text-cream">
-              Claire Campbell{' '}
-              <span className="text-base align-top text-gold">PA</span>
+              Claire Campbell PA{' '}
+              <span className="text-base align-top text-gold"></span>
             </p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/60">
               Real estate services for buyers and sellers across Winter Park,
