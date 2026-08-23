@@ -25,7 +25,7 @@ export const Route = createFileRoute('/')({
 
 const IMG = {
   hero: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2000&auto=format&fit=crop',
-  claire: '/claire-campbell.png',
+  claire: '/claire-campbell.jpg',
   neighborhood:
     'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1600&auto=format&fit=crop',
   marketing:
